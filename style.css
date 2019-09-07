@@ -1,5 +1,19 @@
 li{
     list-style: none;
     color: black;
-    background-color: rgb(235, 123, 19);
+    /* background-color: rgb(235, 123, 19); */
+    margin: 20px;
+    border: 2px solid black;
 }
+a
+li#fav{
+    background: url('../images/addFavorit.png');
+    display: block;
+    width: 48px;
+    height: 48px;
+   
+   }
+   
+   li#fav.active{
+    background: url('../images/addFavorit_hover.png');
+   }
